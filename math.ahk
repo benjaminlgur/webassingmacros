@@ -9,4 +9,9 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 Send, sqrt
 return
 
+
+^e::
+send, ∞
+return
+
 ^x::ExitApp
